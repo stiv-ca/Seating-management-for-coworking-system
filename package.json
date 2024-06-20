@@ -1,0 +1,21 @@
+{
+  "name": "Seating-management-for-coworking-system",
+  "version": "1.0.0",
+  "description": "Basic Project",
+  "main": "index.js",
+  "repository": "https://github.com/stiv-ca/Seating-management-for-coworking-system.git",
+  "author": "Stivca",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev" : "nodemon index.js"
+  },
+  "dependencies": {
+    "@vercel/postgres": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
